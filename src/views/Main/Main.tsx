@@ -1,7 +1,13 @@
 import { FC } from 'react';
 
+import Entities from 'src/components/Entities';
+
 const Main: FC = () => {
-  return <h1>Main page</h1>;
+  return (
+    <main>
+      <Entities />
+    </main>
+  );
 };
 
 export default Main;
